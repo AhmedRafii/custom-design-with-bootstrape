@@ -1,0 +1,357 @@
+
+/* Start Nav bar */
+#top-nav{
+background-color: #daac00;
+padding-inline: 8%;
+}
+
+#top-nav li a{
+color: white;
+padding-left: 25px;
+font-weight: 600;
+}
+
+#logo{
+    width: 250px;
+}
+
+#search-box{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#search-box::placeholder{
+    color: white;
+}
+
+#search-btn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+}
+
+/* Hero Section */
+
+#hero-banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+#hero-text h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 120px;
+
+}
+
+#hero-text p{
+    color: white;
+    font-size: 25px;
+    margin-block: 20px;
+
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;
+}
+
+#banner-btn-2{
+color: white;
+border: 2px solid white;
+margin: 20px;
+}
+
+/* Our Service Section */
+
+#service-text{
+    padding-top: 12%;
+    padding-bottom: 5%;
+}
+
+#service-img{
+    height: 90%;
+    padding-top: 5%;
+}
+
+#service-text h2{
+    font-size: 65px;
+}
+
+#service-text p{
+    font-size: 25px;
+    padding-right: 5%;
+}
+
+#service-text button{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+    font-weight: 500;
+}
+
+/* Counter Section */
+
+#counter-section{
+    background:url(images/background.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+#counter-section h1{
+    font-size: 60px;
+}
+#counter-section h5{
+    font-size: 30px;
+}
+
+#counter-section p{
+    font-size: 20px;
+}
+
+/* Blog section */
+
+#blog{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#blog-para{
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#blog h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#blog p{
+    font-size: 20px;
+}
+
+
+
+.blog-details{
+    padding: 13px;
+    border: 2px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+
+.article-date, .article-link{
+color: #00bec9;
+}
+
+.article-link{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Footer section */
+
+#footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #343434; 
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer-form input{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    padding: 15px;
+    width: 60%;
+    position: relative;
+    left: 10px;
+}
+
+#footer-form button{
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 40px;
+}
+
+.social-icon{
+    font-size: 25px;
+    padding-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+/* Media Quaries Section For Responsive */
+
+/* Nav media quories */
+@media only screen and (max-width: 768px) {
+    #search-form{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        left: -20px;
+    }
+    
+}
+@media only screen and (max-width: 990px) {
+    #search-form{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        position: relative;
+        left: -20px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+   #top-nav{
+    padding: 0;
+   }
+   #top-nav img{
+width: 200px;
+   }
+    
+}
+
+/* Hero Media */
+@media only screen and (max-width: 1300px) {
+    #hero-text h1{
+        font-size: 50px;
+    }
+    
+    #hero-text p{
+        font-size: 18px;
+    }
+    #hero-banner{
+        padding-bottom: 70px;
+    }
+    #hero-img{
+        padding-top: 60px;
+    }
+    
+}
+
+@media only screen and (max-width: 1050px) {
+    #hero-text h1{
+        font-size: 30px;
+    }
+    
+    #hero-text p{
+        font-size: 16px;
+    }
+    #hero-banner{
+        padding-bottom: 70px;
+    }
+    
+    #hero-img{
+        padding-top: 100px;
+    }
+}
+
+
+/* Service Media */
+@media only screen and (max-width: 1200px){
+    #service-text h2{
+        font-size: 40px;
+    }
+    #service-text p{
+        font-size: 20px;
+    }
+    #service-img{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    #service-text h2{
+        font-size: 30px;
+    }
+    #service-text p{
+        font-size: 17px;
+    }
+    #service-img{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    #service-text h2{
+        font-size: 30px;
+    }
+    #service-text p{
+        font-size: 17px;
+    }
+    #service-img{
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #service-text{
+        margin-top: -10%;
+    }
+}
+
+/* Counter Section */
+
+@media only screen and (max-width:500px){
+    
+    .bi{
+        font-size: 50px; 
+    }
+    #counter-section h5{
+        font-size: 25px;
+    }
+}
+
+/* Blog section */
+
+@media only screen and (max-width:600px){
+    #blog{
+        padding-top: -100px;
+        padding-bottom: -10px;
+    }
+}
+
+/* Footer section */
+@media only screen and (max-width:900px){
+    #footer-form input{
+        max-width: 50%;
+    }
+    #footer-form button{
+        padding-inline: 20px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    #footer-form input{
+        max-width: 40%;
+    }
+    #footer-form button .bi{
+        font-size: 15px;
+    }
+}
